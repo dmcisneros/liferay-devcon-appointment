@@ -78,7 +78,7 @@ paths:
 
 ```java
 @Override
-public Page<Appointment> getAppointmentsPage() throws Exception {
+public Page<Appointment> getSiteAppointmentsPage(Long siteId) throws Exception {
 
        List<Appointment> appointments = new ArrayList<>(10);
 
